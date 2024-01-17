@@ -41,6 +41,6 @@ npm run lint
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-1.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-2.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-3.png?raw=true)
-![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-4.png?raw=true)
+![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-7.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-5.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-6.png?raw=true)
