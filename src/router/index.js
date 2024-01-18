@@ -16,7 +16,7 @@ const router = createRouter({
       component: EventList,
     },
     {
-      path: '/event/:id',
+      path: '/events/:id',
       name: 'Layout',
       props: true,
       component: EventLayout,
@@ -39,9 +39,17 @@ const router = createRouter({
       ],
     },
     {
-      path: '/about',
+      path: '/event/:afterEvent(.*)', // this catches everything after (the * makes it include /)
+      redirect: (to) => ({ path: `/events/${to.params.afterEvent}` }),
+    },
+    {
+      path: '/about-us',
       name: 'About',
       component: About,
+    },
+    {
+      path: '/about',
+      redirect: { name: About },
     },
   ],
 })
