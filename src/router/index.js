@@ -16,7 +16,7 @@ const router = createRouter({
       component: EventList,
     },
     {
-      path: '/event/:id',
+      path: '/events/:id',
       name: 'Layout',
       props: true,
       component: EventLayout,
