@@ -42,7 +42,10 @@ const router = createRouter({
       path: '/about-us',
       name: 'About',
       component: About,
-      alias: '/about',
+    },
+    {
+      path: '/about',
+      redirect: { name: About },
     },
   ],
 })
