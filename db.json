@@ -34,6 +34,28 @@
       "organizer": "Carey Wales"
     },
     {
+      "id": 483,
+      "category": "food",
+      "title": "Drag Cook Out",
+      "description": "Which of these queens will serve the most sickening recipe?",
+      "location": "WowPresents Studio",
+      "date": "March 14, 2024",
+      "time": "10:00",
+      "petsAllowed": false,
+      "organizer": "RuPaul"
+    },
+    {
+      "id": 957,
+      "category": "sustainability",
+      "title": "Beach Cleanup #2",
+      "description": "Help pick up trash along the shore.",
+      "location": "Praia de Camburi",
+      "date": "December 22, 2024",
+      "time": "11:00",
+      "petsAllowed": true,
+      "organizer": "Carlos Gomes"
+    },
+    {
       "id": 1001,
       "category": "animal welfare",
       "title": "Dog Adoption Day",
