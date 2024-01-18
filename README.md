@@ -47,4 +47,4 @@ npm run lint
 
 #### Lesson 5: Redirect & Alias
 
-Follow these commits [starting here](nnnnadia/Touring-Vue-Router-Composition-API).
+Follow these commits [starting here]([nnnnadia/Touring-Vue-Router-Composition-API](https://github.com/nnnnadia/Fake-Ass-Vue-3/pull/4/commits/bf5fef5bdcb5bbfbf3689376526f09550494333c)).
