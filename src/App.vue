@@ -3,7 +3,7 @@
     <header>
       <div class="wrapper">
         <nav>
-          <router-link :to="{ name: 'EventList' }">Events</router-link> |
+          <router-link :to="{ name: 'List' }">Events</router-link> |
           <router-link :to="{ name: 'About' }">About</router-link>
         </nav>
       </div>

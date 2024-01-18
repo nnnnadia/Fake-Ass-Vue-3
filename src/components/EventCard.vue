@@ -10,7 +10,7 @@ defineProps({
 <template>
   <router-link
     class="event-link"
-    :to="{ name: 'EventDetail', params: { id: event.id } }"
+    :to="{ name: 'Details', params: { id: event.id } }"
   >
     <div class="event-card">
       <h2>{{ event.title }}</h2>
