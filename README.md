@@ -37,10 +37,14 @@ npm run lint
 
 ### Touring Vue Router (Composition API)
 
-#### Receiving URL Parameters
+#### Lesson 2: Receiving URL Parameters
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-1.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-2.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-3.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-7.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-5.png?raw=true)
 ![](https://github.com/nnnnadia/Fake-Ass-Vue-3/blob/main/images/receiving-url-params-6.png?raw=true)
+
+#### Lesson 5: Redirect & Alias
+
+Follow these commits [starting here](nnnnadia/Touring-Vue-Router-Composition-API).
