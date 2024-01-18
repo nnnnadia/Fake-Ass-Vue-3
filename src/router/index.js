@@ -39,6 +39,10 @@ const router = createRouter({
       ],
     },
     {
+      path: '/event/:afterEvent(.*)', // this catches everything after (the * makes it include /)
+      redirect: (to) => ({ path: `/events/${to.params.afterEvent}` }),
+    },
+    {
       path: '/about-us',
       name: 'About',
       component: About,
