@@ -2,6 +2,7 @@
 import { ref, onMounted, computed, watchEffect } from 'vue'
 import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService.js'
+import router from '../../router'
 
 const props = defineProps(['page'])
 
@@ -30,8 +31,8 @@ onMounted(() => {
         events.value = response.data
         totalEvents.value = response.headers['x-total-count']
       })
-      .catch((error) => {
-        console.log(error)
+      .catch(() => {
+        router.push({ name: 'NetworkError' })
       })
   })
 })
@@ -44,7 +45,7 @@ onMounted(() => {
     <div class="pagination">
       <router-link
         id="page-prev"
-        :to="{ name: 'List', query: { page: page - 1 } }"
+        :to="{ name: 'EventList', query: { page: page - 1 } }"
         rel="prev"
         v-if="page != 1"
       >
@@ -52,7 +53,7 @@ onMounted(() => {
       </router-link>
       <router-link
         class="between-page"
-        :to="{ name: 'List', query: { page: pageInBetween } }"
+        :to="{ name: 'EventList', query: { page: pageInBetween } }"
         rel="pageInBetween"
         v-for="pageInBetween in pagesInBetween"
         :key="pageInBetween"
@@ -61,7 +62,7 @@ onMounted(() => {
       </router-link>
       <router-link
         id="page-next"
-        :to="{ name: 'List', query: { page: page + 1 } }"
+        :to="{ name: 'EventList', query: { page: page + 1 } }"
         rel="next"
         v-if="hasNextPage"
       >
